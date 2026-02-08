@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clock</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #282c34;
+        color: #fff;
+        font-family: sans-serif, Arial, Helvetica, sans-serif;
+      }
+      body::-webkit-scrollbar {
+        display: none;
+      }
+      .clock_container {
+        text-align: center;
+        font-size: 1rem;
+        border: 2px solid white;
+        padding: 20px;
+        border-radius: 10px;
+        background: linear-gradient(
+          to bottom,
+          rgba(149, 149, 149, 1) 0%,
+          rgba(13, 13, 13, 1) 46%,
+          rgba(1, 1, 1, 1) 50%,
+          rgba(10, 10, 10, 1) 53%,
+          rgba(78, 78, 78, 1) 76%,
+          rgba(56, 56, 56, 1) 87%,
+          rgba(27, 27, 27, 1) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div class="clock_container">
+      <h1 class="clock">00:00:00</h1>
+    </div>
+    <audio src="./assest/dragon-studio-slow-cinematic-clock-ticking-357979.mp3" preload="auto"></audio>
+
+    <script>
+      setInterval(() => {
+        const element = document.querySelector(".clock");
+        const sound = document.querySelector("audio");
+
+        const time = new Date();
+        const option = {
+          timeZone: "Asia/kolkata",
+          hour: `2-digit`,
+          minute: `2-digit`,
+          second: `2-digit`,
+        };
+
+        element.textContent = time.toLocaleTimeString(`en-us`, option);
+        sound.play();
+      }, 1000);
+    </script>
+  </body>
+</html>
