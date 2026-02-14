@@ -215,7 +215,7 @@
 //     console.log(`secong`);
 // } else if( mark<40){
 //     console.log(`fail`);
-// } 
+// }
 // 29.	Check login:
 // username & password correct → success
 // else → error
@@ -250,40 +250,61 @@
 // }
 // 33.Find largest of 4 numbers.
 
+// let arr=[0,2,5,9,3,40,];
+// let mix=arr[0];
+// for (let i of arr){
+
+//   if (i < max) max = i;
+// }
+// console.log(max);
+// for(let i of arr){
+//     if(i<mix) mix =i
+// }
+
 // 34.Print weekday using switch (1–7).
 
 // 35.Find smallest of 3 numbers using ternary.
 
 // 36.Check if a year is century year and leap year.
+
+// let year = 1700;
+
+// if (year % 400 === 0) {
+//     console.log("Century Leap Year");
+// }
+// else if (year % 100 === 0) {
+//     console.log("Century Year but Not Leap Year");
+// }
+// else if (year % 4 === 0) {
+//     console.log("Leap Year");
+// }
+// else {
+//     console.log("Normal Year");
+// }
 // 37.Shipping cost:
 // •weight < 2kg → ₹50
 // •<5kg → ₹100
 // •else → ₹200
+// let weight=3;
+// if(weight<=2){
+//     console.log(`${weight}kg cost is 50`);
+// }else if(weight<=5 ){
+//      console.log(`${weight}kg cost is 100`);
+// }else if(weight>5){
+//      console.log(`${weight}kg cost is 200`);
+// }
 // 38.Movie ticket price:
 // •child → ₹100
 // •adult → ₹200
 // •senior → ₹150
-// 39.Check whether number is palindrome.
-// 40.Validate time:
-// hour 0–23 and minute 0–59.
-// ________________________________________
-// 🔴 HARD / LOGIC (41–50)
-// 41.Electricity bill with surcharge if bill > ₹1000 add 10%.
-// 42.Salary calculator:
-// HRA 20%, DA 10% if salary > 50k else 5%.
-// 43.Determine profit or loss and percentage.
-// 44.Find roots of quadratic equation using conditions.
-// 45.Convert number to weekday & weekend checker.
-// 46.Parking fee:
-// •first 2 hrs → ₹30
-// •next 3 hrs → ₹10/hr
-// •after → ₹20/hr
-// 47.Online order coupon:
-// •above ₹3000 → 30%
-// •above ₹2000 → 20%
-// •above ₹1000 → 10%
-// 48.Find BMI category:
-// Underweight / Normal / Overweight / Obese.
-// 49.Bank interest calculator using slabs.
-// 50.Game score evaluation:
-// Bonus if score > 5000 AND level ≥ 10.
+// let category="senior";
+// if(category==="child"){
+//     console.log(`${category} movie ticket price is 100`);
+// }else if(category==="adult"){
+//     console.log(`${category} movie ticket price is 200`);
+// }else if (category==="senior"){
+//     console.log(`${category} movie ticket price is 150`);
+// }else{
+//      console.log(`${category} "Invalid category"`);
+// }
+
