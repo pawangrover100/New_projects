@@ -308,3 +308,35 @@
 //      console.log(`${category} "Invalid category"`);
 // }
 
+// 🔹 JavaScript Function – 15 Questions
+
+// Ek function banao jo kisi number ka square return kare.
+
+// Ek function likho jo do numbers ka sum return kare.
+
+// Ek function banao jo check kare number even hai ya odd.
+
+// Ek function likho jo string ko uppercase me convert kare.
+
+// Ek function banao jo array ke sab elements ka total nikale.
+
+// Ek function likho jo maximum number return kare (2 numbers me se).
+
+// Ek function banao jo factorial calculate kare.
+
+// Ek function likho jo palindrome string check kare.
+
+// Ek function banao jo table print kare (1–10).
+
+// Ek function likho jo count kare vowels string me.
+
+// Ek function banao jo array ka first element return kare.
+
+// Ek function likho jo array reverse kare.
+
+// Ek function banao jo percentage calculate kare
+// (marks, totalMarks).
+
+// Ek function likho jo prime number check kare.
+
+// Ek function banao jo string me space count kare.
