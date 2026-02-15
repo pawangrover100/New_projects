@@ -340,3 +340,111 @@
 // Ek function likho jo prime number check kare.
 
 // Ek function banao jo string me space count kare.
+
+
+// 🔥 JavaScript Function + Arrow Function (50 Questions)
+// 🟢 Basic Level (1–15)
+
+// Number ka square nikalne ka function banao
+
+// Do numbers ka sum return karo
+
+// Number even ya odd check karo
+
+// String ko uppercase me convert karo
+
+// String ki length return karo
+
+// Array ka first element return karo
+
+// Array ka last element return karo
+
+// Do numbers me se greater number find karo
+
+// Number positive, negative ya zero check karo
+
+// Circle ka area calculate karo
+
+// Number ka cube nikalna
+
+// String ko reverse karo
+
+// Array ka total sum nikalna
+
+// Number divisible by 5 hai ya nahi
+
+// Character vowel hai ya nahi
+
+// 🟡 Intermediate Level (16–35)
+
+// Factorial calculate karo
+
+// Palindrome string check karo
+
+// Array ka maximum number find karo
+
+// Array ka minimum number find karo
+
+// Prime number check karo
+
+// String me vowels count karo
+
+// Array ko reverse karo
+
+// Array se even numbers return karo
+
+// Array se odd numbers return karo
+
+// Table print karo (1–10)
+
+// String me spaces count karo
+
+// Array ka average nikalna
+
+// Do strings equal hain ya nahi
+
+// Number ka digit count karo
+
+// Fibonacci series print karo
+
+// String me character count (without space)
+
+// Array ka second largest element
+
+// Year leap year hai ya nahi
+
+// Celsius ko Fahrenheit me convert karo
+
+// Number perfect number hai ya nahi
+
+// 🔴 Advanced Level (36–50)
+
+// Array me se duplicate values remove karo
+
+// String me most repeated character
+
+// Array ka largest & smallest ek sath find karo
+
+// Sentence me words count karo
+
+// Array ko ascending order me sort karo
+
+// Array ko descending order me sort karo
+
+// String me frequency object banao
+
+// Array ke elements ka square array banao
+
+// Array ke elements ka sum using reduce
+
+// String ko title case me convert karo
+
+// Array me specific element exist karta hai ya nahi
+
+// Number ko binary me convert karo
+
+// Array ka intersection find karo
+
+// Array ka union find karo
+
+// Function jo callback accept kare
