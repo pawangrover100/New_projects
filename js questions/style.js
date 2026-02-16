@@ -311,17 +311,45 @@
 // 🔹 JavaScript Function – 15 Questions
 
 // Ek function banao jo kisi number ka square return kare.
-
+// function square(num){
+//     return num*num
+// }
+// console.log(square(2));
 // Ek function likho jo do numbers ka sum return kare.
-
+// function sum (num){
+//     return num +num
+// } 
+// console.log(sum(5));
 // Ek function banao jo check kare number even hai ya odd.
+// function check(num){
+   
+//     if(num%2==0){return`${num}  is even`}
+//         else{return`${num} is odd`;}
+    
+// }
+// console.log(check(5));
 
 // Ek function likho jo string ko uppercase me convert kare.
+// function string(word){
+//     return word.toUpperCase()
 
+// }
+// console.log(string("pawangrover"));
 // Ek function banao jo array ke sab elements ka total nikale.
-
+//  function arrtotal(arr){
+//     let sum=0;
+//     for(let i=0; i<arr.length; i++){
+// sum +=arr[i];
+//     }
+//     return sum;
+//  }
+//  console.log(arrtotal([30,55,25]));
 // Ek function likho jo maximum number return kare (2 numbers me se).
-
+    // function maxi(a,b){
+    //     if(a>b){rettrn`${a} a is maximum`;
+    //     }else{return`${b} b is maximu`;}
+    // }
+    // console.log(maxi(25,35));
 // Ek function banao jo factorial calculate kare.
 
 // Ek function likho jo palindrome string check kare.
@@ -346,6 +374,8 @@
 // 🟢 Basic Level (1–15)
 
 // Number ka square nikalne ka function banao
+
+
 
 // Do numbers ka sum return karo
 
