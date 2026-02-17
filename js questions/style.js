@@ -362,6 +362,12 @@
 // console.log(factorial(5));
 
 // Ek function likho jo palindrome string check kare.
+//  function palidrome (str){
+//     let string=str.toLowerCase().replace(/[^a-z0-0]/g, "")
+//     let reversed=string.split("").reverse().join("")
+//     return string===reversed
+//  }
+//  console.log(palidrome("hellow"));
 
 // Ek function banao jo table print kare (1–10).
 
