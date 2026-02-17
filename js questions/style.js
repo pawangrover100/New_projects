@@ -382,7 +382,10 @@
 // Ek function banao jo array ka first element return kare.
 
 // Ek function likho jo array reverse kare.
-
+//  function array(arr){
+//     return arr.reverse()
+//  }
+// console.log(array([10,20,30,40,50,60,70,80,90,100]));
 // Ek function banao jo percentage calculate kare
 // (marks, totalMarks).
 
