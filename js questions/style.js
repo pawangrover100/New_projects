@@ -370,7 +370,13 @@
 //  console.log(palidrome("hellow"));
 
 // Ek function banao jo table print kare (1–10).
+//  function table(num){
+//     for(let i=1; i<=10; i++){
+//      console.log(`${num} * ${i} = ${num* i}`); 
+//     }
 
+//  }
+// table(5)
 // Ek function likho jo count kare vowels string me.
 
 // Ek function banao jo array ka first element return kare.
