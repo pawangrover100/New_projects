@@ -381,6 +381,11 @@
 
 // Ek function banao jo array ka first element return kare.
 
+function array(arr){
+    return arr[0]
+}
+console.log(array([20,30,40,50]));
+
 // Ek function likho jo array reverse kare.
 //  function array(arr){
 //     return arr.reverse()
