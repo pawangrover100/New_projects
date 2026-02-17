@@ -351,6 +351,15 @@
     // }
     // console.log(maxi(25,35));
 // Ek function banao jo factorial calculate kare.
+// function factorial(n){
+// if(n<0){return "Negative number ka factorial nahi hota";}
+// let fact=1;
+// for(let i =1; i<=n; i++){
+// fact*=i;
+// }
+// return fact;
+// }
+// console.log(factorial(5));
 
 // Ek function likho jo palindrome string check kare.
 
