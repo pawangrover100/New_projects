@@ -433,7 +433,12 @@
 // 🟢 Basic Level (1–15)
 
 // Number ka square nikalne ka function banao
+// function square(num) {
+//   return num * num;
+// }
 
+// console.log(square(5));   
+// console.log(square(12));  
 
 
 // Do numbers ka sum return karo
