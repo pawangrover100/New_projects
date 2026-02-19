@@ -395,6 +395,23 @@
 // (marks, totalMarks).
 
 // Ek function likho jo prime number check kare.
+// function prime(num) {
+//   if (num <= 1) {
+//     console.log("Not a prime number");
+//     return;
+//   }
+
+//   for (let i = 2; i < num; i++) {
+//     if (num % i === 0) {
+//       console.log("Not a prime number");
+//       return;
+//     }
+//   }
+
+//   console.log("Prime number");
+// }
+
+// prime(44);
 
 // Ek function banao jo string me space count kare.
 
