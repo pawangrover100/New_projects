@@ -415,6 +415,19 @@
 
 // Ek function banao jo string me space count kare.
 
+// function countSpaces(str) {
+//   let count = 0;
+
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] === " ") {
+//       count++;
+//     }
+//   }
+
+//   return count;
+// }
+
+// console.log(countSpaces("Hello World from JavaScript"));
 
 // 🔥 JavaScript Function + Arrow Function (50 Questions)
 // 🟢 Basic Level (1–15)
