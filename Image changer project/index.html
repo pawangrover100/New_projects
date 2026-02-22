@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image changer</title>
+    <style>
+      body {
+        background-color: black;
+        color: #fff;
+        text-align: center;
+      }
+      .image_container img {
+        width: 500px;
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .image_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .image_container h2 {
+        background: linear-gradient(
+          90deg,
+          rgba(42, 123, 155, 1) 0%,
+          rgba(87, 199, 133, 1) 50%,
+          rgba(237, 221, 83, 1) 100%
+        );
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image_container">
+      <h1>Image changer</h1>
+      <img src="./image/gracia-dharma-qTlbO6mkQH0-unsplash.jpg" alt="" />
+      <h2>anima</h2>
+    </div>
+
+    <script>
+      let img = document.querySelector("img");
+      let h2 = document.querySelector("h2");
+      let preSrc = img.src;
+      let pretext = h2.innerText;
+
+      img.addEventListener("mouseover", () => {
+        img.src = "./image/tim-mossholder-tq8Cuap8_wY-unsplash.jpg";
+        h2.innerText = "new anime";
+      });
+      img.addEventListener("mouseleave", () => {
+         img.src= preSrc 
+         h2.innerText=pretext
+      });
+    </script>
+  </body>
+</html>
